@@ -1,0 +1,97 @@
+# ====================================================================
+# Global / IDE Cache (Applies to both Frontend & Backend)
+# ====================================================================
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# JetBrains (IntelliJ IDEA, WebStorm)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# Local environment variables (Crucial for security!)
+.env
+.env.local
+.env.*.local
+
+
+# ====================================================================
+# Backend: Java / Maven
+# ====================================================================
+# Build output
+target/
+*.jar
+*.war
+*.ear
+*.nar
+
+# Eclipse IDE
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+*.factorypath
+
+# NetBeans IDE
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Logs & Crash reports
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+
+# ====================================================================
+# Frontend: React (TypeScript) / Node
+# ====================================================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing & Coverage
+coverage/
+.nyc_output
+
+# Linters & formatters cache
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: Bun runtime
+bun.lockb
